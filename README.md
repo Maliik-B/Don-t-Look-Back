@@ -29,7 +29,7 @@ October 2019, mostly under `Assets/Scripts/UI/`.
 - **Scene loading and flow** (`Scripts/UI/SceneLoader.cs`) - menu → game → victory / death routing, with level-remembrance so the death screen returns the player to the correct level
 - **Main menu polish** - layout centering, button states, visual pass to match the tone
 - **Victory and death scenes** - built `victoryScene.unity` and `endingScene.unity` and the UI manager hooks that load them
-- **Light flickering** (`Scripts/UI/LightFlicker.cs`) - the flicker on the scene lights and the flashlight
+- **Light flickering** (`Scripts/UI/LightFlicker.cs`) - the flicker on the scene lights
 - **Integration touches** on `PlayerMovement.cs` and `RoomManager.cs` to expose the accessors and scene transitions my UI layer needed
 
 ## Repo Layout
