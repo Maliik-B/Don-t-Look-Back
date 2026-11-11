@@ -23,13 +23,13 @@ Ian continued expanding the game after the semester ended and shipped the itch.i
 
 ## My Contributions
 
-19 commits, ~316 LOC across `Assets/Scripts/`, October 2019.
+October 2019, mostly under `Assets/Scripts/UI/`.
 
 - **Pause system** (`Scripts/UI/Pause.cs`) - escape-key pause with state preservation and resume hook
 - **Scene loading and flow** (`Scripts/UI/SceneLoader.cs`) - menu → game → victory / death routing, with level-remembrance so the death screen returns the player to the correct level
 - **Main menu polish** - layout centering, button states, visual pass to match the tone
 - **Victory and death scenes** - built `victoryScene.unity` and `endingScene.unity` and the UI manager hooks that load them
-- **Light flickering** (`Scripts/UI/LightFlicker.cs`) - ambient-unease pass on environmental lights
+- **Light flickering** (`Scripts/UI/LightFlicker.cs`) - the flicker on the scene lights and the flashlight
 - **Integration touches** on `PlayerMovement.cs` and `RoomManager.cs` to expose the accessors and scene transitions my UI layer needed
 
 ## Repo Layout
@@ -38,7 +38,7 @@ Ian continued expanding the game after the semester ended and shipped the itch.i
 Assets/
   Scripts/
     Camera/      - 3rd-person camera control
-    EnemyAI/     - 5-state enemy pathfinding (~1K LOC)
+    EnemyAI/     - 5-state enemy pathfinding
     Objects/     - Door, Key, LadderProperties, StairProperties
     Player/      - PlayerMovement, Flashlight, Tutorial
     Room/        - RoomManager, RoomProperties, EntityRoomUpdater, WallProperties
